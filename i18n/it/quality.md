@@ -1,5 +1,7 @@
 The following is a proposed model for QA workflow. While linear in nature, any phase can be worked on individually if needed - as long as all phases are eventually addressed.
 
+Di seguito è illustrata la proposta per un modello proposto di il flusso di lavoro QA. Sebbene sia previsto come un flusso lineare, qualsiasi fase può essere lavorata singolarmente se necessario - fintanto che tutte le fasi siano eventualmente portate a termine.
+
 ## Phase 1: Basic Review
 
 - All code must adhere to our contributing guidelines
