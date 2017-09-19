@@ -1,4 +1,4 @@
-## Quality Assurance
+## Garanzia di Qualità
 - View our [Quality Assurance](https://github.com/monero-project/kovri-docs/blob/master/i18n/it/quality.md) guide to get an idea of proposed workflow
 
 ## Compliance
