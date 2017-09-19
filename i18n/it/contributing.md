@@ -1,32 +1,32 @@
 ## Garanzia di Qualità
-- View our [Quality Assurance](https://github.com/monero-project/kovri-docs/blob/master/i18n/it/quality.md) guide to get an idea of proposed workflow
+- Leggi la nostra guida alla [Garanzia di Qualità](https://github.com/monero-project/kovri-docs/blob/master/i18n/it/quality.md) per conoscere il flusso di lavoro proposto.
 
-## Compliance
-- We aim for complete C++11/14 compliance; feel free to use this to your advantage with your work
-- It is also highly recommended to use the standard library and dependency libraries when possible
+## Conformità
+- Abbiamo come obiettivo la conformità alle specifiche C++11/14; feel free to use this to your advantage with your work
+- Raccomandiamo inoltre caldamente di usare librerie standard e librerie di dipendenza per quanto possibile
 
-## Sending your work
-To contribute your work, please proceed with the following:
+## Inviare il tuo lavoro
+Per contribuire con il tuo lavoro, per favore procedi in questo modo:
 
-1. Fork Kovri
-2. Read our [style guide](https://github.com/monero-project/kovri-docs/blob/master/i18n/it/style.md)
-3. Create a [topic branch](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
-4. [**Sign**](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work) your commit(s)
-5. Send a pull-request to branch ```master```
-   - We currently do not have any tags as we are in pre-alpha. For now, you can base your work off of master.
-   - Commit messages should be verbose by default, consisting of a short subject line (50 chars max), a blank line, and detailed explanatory text as separate paragraph(s) - unless the title alone is self-explanatory.
-   - Commit title should prepend class or aspect of project. For example, "HTTPProxy: implement User-Agent scrubber. Fixes #193." or "Garlic: fix uninitialized padding in ElGamalBlock".
-   - If a particular commit references another issue, please add a reference. For example "See #123", or "Fixes #123". This will help us resolve tickets when we merge into ```master```.
-   - In general, commits should be [atomic](https://en.wikipedia.org/wiki/Atomic_commit#Atomic_commit_convention) and diffs should be easy to read. For this reason, please try to not mix formatting fixes with non-formatting commits.
-   - The body of the pull request should contain an accurate description of what the patch does and provide justification/reasoning for the patch (when appropriate). You should include references to any discussions such as other tickets or chats on IRC.
+1. Esegui un fork di Kovri
+2. Leggi la nostra [style guide](https://github.com/monero-project/kovri-docs/blob/master/i18n/it/style.md)
+3. Crea un [topic branch](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
+4. [**Sign**](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work) i tuoi commit(s)
+5. Invia un pull-request per il branch ```master```
+   - Attualmente non abbiamo alcuna tag in quanto siamo in versione pre-alpha. Per adesso, puoi basare il tuo lavoro dalla master
+   - I messaggi di commit dovrebbero essere dettagliati, composti di una linea di soggetto corta (50 caratteri al massimo), una linea vuota, quindi una descrizione dettagliata - a meno che il titolo stesso non sia auto-esplicativo. 
+   - Il titolo del commit dovrebbe iniziare con la classe oppure l'aspetto del progetto. Per esempio, "HTTPProxy: implement User-Agent scrubber. Fixes #193." or "Garlic: fix uninitialized padding in ElGamalBlock".
+   - Se un particolare commit si riferisce ad un altro problema, per favore aggiungi un collegamento. Per esempio "See #123", or "Fixes #123". Questo ci aiuterà a resolve tickets when we merge into ```master```.
+   - In generale, i commits dovrebbero essere [atomic](https://en.wikipedia.org/wiki/Atomic_commit#Atomic_commit_convention) e le differenze dovrebbero essere facili da leggere. Per questo motivo, per favore cerca di non mescolare formatting fixes con non-formatting commits.
+   - Il corpo del pull request deve contenere una descrizione accurata del funzionamento del patch e includere giustificazioni/motivazioni per la sua creazione (quando opportuno). Devi inoltre includere riferimenti a qualunque discussione oppure ad altri tickets o chat in IRC.
 
-## Proposals
-To contribute a proposal, please review our [open issues](https://github.com/monero-project/kovri/issues) for existing proposals. If what you propose is not there, then [open a new issue](https://github.com/monero-project/kovri/issues/new).
+## Proposte
+Per contribuire con una proposta, per favore passa in rassegna la nostra [open issues](https://github.com/monero-project/kovri/issues) delle proposte esistenti. Se la tua proposta non è già presente, allora procedi con [open a new issue](https://github.com/monero-project/kovri/issues/new).
 
-Even though our C4 dictates that we merge everything, we ask that you open a proposal for the following reasons:
+Anche se la nostra C4 prevede che noi effettuiamo il merge di ogni cosa, ti chiediamo di aprire una proposta per i seguenti motivi:
 
 1. A proposal open up communication
-2. A proposal show that the contributor respects the input of all project collaborators
+2. Una proposta dimostra che il contributore rispetta l'input di tutti i collaboratori di progetto
 3. A proposal allows seamless collaborator input in an open forum
 4. A proposal saves time if a collaborator is working on a similar feature/issue
 5. A proposal prevents catasrophes and mishaps or allows collaborators to prepare for catasrophes and mishaps
@@ -34,8 +34,8 @@ Even though our C4 dictates that we merge everything, we ask that you open a pro
 *Not* opening a proposal will *not* prevent you from contributing; we will merge what you PR - but a proposal is highly recommended.
 
 ## TODO's
-- Do a quick search in the codebase for ```TODO(unassigned):``` and/or pick a ticket and start patching!
-- If you create a TODO, assign it to yourself or write in ```TODO(unassigned):```
+- Fai una ricerca veloce nel codice per la stringa ```TODO(unassigned):``` e/o scegli un ticket ed inizia il patching!
+- Se hai creato un TODO, assegnalo a te stesso oppure annota ```TODO(unassigned):```
 
 # [Code of Conduct (22/C4.1)](http://rfc.zeromq.org/spec:22)
 
