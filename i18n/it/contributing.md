@@ -9,9 +9,9 @@
 Per contribuire con il tuo lavoro, per favore procedi in questo modo:
 
 1. Esegui un fork di Kovri
-2. Leggi la nostra [style guide](https://github.com/monero-project/kovri-docs/blob/master/i18n/it/style.md)
-3. Crea un [topic branch](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
-4. [**Sign**](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work) i tuoi commit(s)
+2. Leggi la nostra [guida sullo stile](https://github.com/monero-project/kovri-docs/blob/master/i18n/it/style.md)
+3. Crea un [branch specifico](https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging)
+4. [**Firma**](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work) i tuoi commit(s)
 5. Invia un pull-request per il branch ```master```
    - Attualmente non abbiamo alcuna tag in quanto siamo in versione pre-alpha. Per adesso, puoi basare il tuo lavoro dalla master
    - I messaggi di commit dovrebbero essere dettagliati, composti di una linea di soggetto corta (50 caratteri al massimo), una linea vuota, quindi una descrizione dettagliata - a meno che il titolo stesso non sia auto-esplicativo. 
