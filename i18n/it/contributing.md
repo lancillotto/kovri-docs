@@ -2,7 +2,7 @@
 - Leggi la nostra guida alla [Garanzia di Qualità](https://github.com/monero-project/kovri-docs/blob/master/i18n/it/quality.md) per conoscere il flusso di lavoro proposto.
 
 ## Conformità
-- Abbiamo come obiettivo la conformità alle specifiche C++11/14; feel free to use this to your advantage with your work
+- Abbiamo come obiettivo la conformità alle specifiche C++11/14; sfruttalo a tuo vantaggio con il tuo lavoro
 - Raccomandiamo inoltre caldamente di usare librerie standard e librerie di dipendenza per quanto possibile
 
 ## Inviare il tuo lavoro
@@ -16,22 +16,22 @@ Per contribuire con il tuo lavoro, per favore procedi in questo modo:
    - Attualmente non abbiamo alcuna tag in quanto siamo in versione pre-alpha. Per adesso, puoi basare il tuo lavoro dalla master
    - I messaggi di commit dovrebbero essere dettagliati, composti di una linea di soggetto corta (50 caratteri al massimo), una linea vuota, quindi una descrizione dettagliata - a meno che il titolo stesso non sia auto-esplicativo. 
    - Il titolo del commit dovrebbe iniziare con la classe oppure l'aspetto del progetto. Per esempio, "HTTPProxy: implement User-Agent scrubber. Fixes #193." or "Garlic: fix uninitialized padding in ElGamalBlock".
-   - Se un particolare commit si riferisce ad un altro problema, per favore aggiungi un collegamento. Per esempio "See #123", or "Fixes #123". Questo ci aiuterà a resolve tickets when we merge into ```master```.
+   - Se un particolare commit si riferisce ad un altro problema, per favore aggiungi un collegamento. Per esempio "See #123", or "Fixes #123". Questo ci aiuterà a risolvere i tickets quando facciamo il merge in ```master```.
    - In generale, i commits dovrebbero essere [atomic](https://en.wikipedia.org/wiki/Atomic_commit#Atomic_commit_convention) e le differenze dovrebbero essere facili da leggere. Per questo motivo, per favore cerca di non mescolare formatting fixes con non-formatting commits.
    - Il corpo del pull request deve contenere una descrizione accurata del funzionamento del patch e includere giustificazioni/motivazioni per la sua creazione (quando opportuno). Devi inoltre includere riferimenti a qualunque discussione oppure ad altri tickets o chat in IRC.
 
 ## Proposte
 Per contribuire con una proposta, per favore passa in rassegna la nostra [open issues](https://github.com/monero-project/kovri/issues) delle proposte esistenti. Se la tua proposta non è già presente, allora procedi con [open a new issue](https://github.com/monero-project/kovri/issues/new).
 
-Anche se la nostra C4 prevede che noi effettuiamo il merge di ogni cosa, ti chiediamo di aprire una proposta per i seguenti motivi:
+Anche se la nostra C4 prevede che noi effettuiamo il merge di ogni cosa, ti chiediamo di aprire una proposta con le seguenti caratteristiche:
 
-1. A proposal open up communication
-2. Una proposta dimostra che il contributore rispetta l'input di tutti i collaboratori di progetto
-3. A proposal allows seamless collaborator input in an open forum
-4. A proposal saves time if a collaborator is working on a similar feature/issue
-5. A proposal prevents catasrophes and mishaps or allows collaborators to prepare for catasrophes and mishaps
+1. Una proposta disponibile allo scambio di idee
+2. Una proposta che dimostri di rispettare l'input di tutti i collaboratori di progetto
+3. Una proposta che consenta facilmente il contributo di un collaboratore in una discussione pubblica
+4. Una proposta che permetta di accelerare il lavoro di un collaboratore che stia lavorando su una caratteristica/problema simile
+5. Una proposta che prevenga catastrofi e contrattempi o che permetta ai collaboratori di prepararsi ad affrontare catastrofi e contrattempi
 
-*Not* opening a proposal will *not* prevent you from contributing; we will merge what you PR - but a proposal is highly recommended.
+*Non* creare una proposta *non* ti impedirà di contribuire; faremo il merge delle tue PR - ma una proposta è caldamente raccomandata.
 
 ## TODO's
 - Fai una ricerca veloce nel codice per la stringa ```TODO(unassigned):``` e/o scegli un ticket ed inizia il patching!
