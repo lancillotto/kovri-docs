@@ -6,7 +6,7 @@ The following is a proposed model for QA workflow. While linear in nature, any p
 - Note areas that need improving (mentally or in code)
 - Create TODO's and assign if possible
 
-## Phase 2: Specification Review /  Implementation / Code Documentation
+## Fase 2: Specification Review /  Implementation / Code Documentation
 
 - Complete specification review on a per module basis; e.g., Streaming, I2PControl, etc.
   - Code must be in-line with essential parts of the specification that will maintain the same (or better) level of anonymity that java I2P provides
@@ -19,7 +19,7 @@ The following is a proposed model for QA workflow. While linear in nature, any p
   - Code should guide the reader to a better understanding of I2P
     - I2P is very complex so our code should act as sovereign replacement of spec documentation and not simply as a supplement (this can be a tedious objective but very rewarding in terms of maintenance and software lifespan)
 
-## Phase 3: Crypto Review / Security auditing
+## Fase 3: Crypto Review / Security auditing
 
 - Ensure that crypto is up-to-date and properly implemented
 - Establish every vector for known exploitation
